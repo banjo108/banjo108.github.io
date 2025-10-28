@@ -2,18 +2,28 @@ body {
     background-color: rgb(12,16,24);
 }
 
+header {
+    font-weight:bolder;
+    background-color: yellow;
+    padding-top: .5%;
+    padding-bottom: .5%;
+    font-size:250%;
+    text-align: center;
+    color: rgb(12,16,24);
+}
+
 @keyframes size {
-    from {height: 28vh;}
-    to {height:38vh;}
+    from {height: 24vh;}
+    to {height:34vh;}
 }
 
 @keyframes sizeDown {
-    from {height: 38vh;}
-    to {height:28vh;}
+    from {height: 34vh;}
+    to {height:24vh;}
 }
 
 img {
-    height:28vh;
+    height:24vh;
     border-style:solid;
     border-color:whitesmoke;
     border-width:0px;
